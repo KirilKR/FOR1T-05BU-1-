@@ -1,0 +1,43 @@
+#Kiril Krushkov (KK)
+#SN: 1754
+#Practice
+#Git spurningar og svör
+
+1. Hvað gera eftirfarandi Linux skipanir?
+	cd = cd stendur fyrir "change directory" og færir þig um ákveðna möppu.
+	cd = cd ~ sendir þig í Home möpppuna.
+	ls = ls sýnir þér lista yfir skrár ákveðnar möppu.
+	pwd = pwd sýnir í hvaða möppu þú ert staddur.
+	mkdir = mkdir stendur fyrir "make directory" og býr til nýja möppu. 
+=======================================================================================================================================================
+2. Hvað gera eftirfarandi git skipanir og hvers vegna eru þær gagnlegar?
+
+	git clone = git clone afritar verkefni yfir í nýja möppu.
+
+	git log = git log sýnir allar breytingar sem gerðar hafa verið við ákveðið verkefni.
+
+	git status = git status sýnir ástandið á vinnu trénu(working tree).
+
+	git diff = git diff sýnir breytingu milli hluta.
+
+	git checkout = git checkout gerir þér kleift að skipta um eða endurheimta tré skrár amk.
+=======================================================================================================================================================
+3. Hver er munurinn á eftirfarandi git skipunum:
+	a) git diff = Sem staðbundin breytingar eru bætt við og ekki merkt í staðnum.
+	b) git diff --staged = Til að sjá þær breytingar sem hafa verið sett á svið þegar.
+	c) git diff commit1 commit2 = Sýnir breytingar á geymsla eða valið hóp skuldbindur.
+=======================================================================================================================================================
+4. 	Hvað er útgáfustýring (e.version control)? = Útgáfa stjórna er kerfi sem skráir breytingar á skrá eða setja af skrá yfir tíma þannig að þú getur muna ákveðin útgáfur síðar.
+=======================================================================================================================================================
+5.	Hverjir eru helstu kostir við að nota GIT? = Þetta þýðir að vinna er þitt eigið. Tungumál Þú getur látið aðra sjá aðeins það sem er nauðsynlegt. Ekki allt þarf að vera opinber. Það eru aðrir kostir til dreift líkan, svo sem hraði.
+=======================================================================================================================================================
+6.	Hversu oft telur þú að eigi að gera commit í verkefni, rökstuddu? = Ef þú ert að gera meiriháttar breytingar og eru áhyggjur að hafa áhrif á aðra vinna á kóða, getur þú búið til nýja grein, og þá sameinast aftur í skottinu eftir breytingar þínar eru lokið.
+=======================================================================================================================================================
+7.	Hvað er "Working directory"?" "Staging area"?" og "Repository" í GIT? = Vinna möppu er mappan með uppspretta skrár undir git stjórn. Git er rekja muninn vinnumöppu og sveitarfélaga geymsla, og milli sveitarfélaga geymsla og fjarlægur geymsla.
+=======================================================================================================================================================
+8.	Hvenær er sniðugt að nota greinar (branches)? = Útibú í innsta eðli sínu, er einstakt röð af breytingum kóða með einstakt nafn. Hver geymsla Getur haft eitt eða fleiri útibú
+=======================================================================================================================================================
+9.	Hver fann upp GIT? = Linus Torvalds er höfuð GIT.
+=======================================================================================================================================================
+10.	Hvar er GIT helst notað? = Git er mjög mismunandi að hefðbundnum, miðlæg útgáfa eftirlitskerfi.
+=======================================================================================================================================================
